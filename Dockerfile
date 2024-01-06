@@ -8,5 +8,4 @@ COPY package.json yarn.lock ./
 COPY prisma ./prisma
 
 RUN yarn
-RUN npx prisma generate
 RUN rm -rf prisma
